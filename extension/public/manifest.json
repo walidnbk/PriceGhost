@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Price Ghost",
+  "version": "1.0.0",
+  "description": "Extension pour suivre les prix sur Amazon.fr et communiquer avec le backend local",
+  "permissions": [],
+  "host_permissions": [
+    "https://www.amazon.fr/*",
+    "https://amazon.fr/*",
+    "http://localhost:8000/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.amazon.fr/*", "https://*.amazon.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
