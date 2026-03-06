@@ -45,16 +45,6 @@ Ce projet a été développé de A à Z (Full Stack) :
 
 ---
 
-## Aperçu du Projet en Images
-
-*(Remplacer ces textes par vos vraies images de l'extension et du tableau de bord)*
-
-![Extension en pleine action sur Amazon](lien_de_ton_image_1.png)
-
-![Le tableau de bord administrateur Laravel](lien_de_ton_image_2.png)
-
----
-
 ##  Comment installer ce projet chez vous ?
 
 Si vous voulez tester le code sur votre machine, suivez ces étapes simples :
